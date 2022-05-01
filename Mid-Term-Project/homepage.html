@@ -1,40 +1,60 @@
 <html>
     <head>
         <title>Heewon Kim</title>
+        <link href="./homepage.css" type="text/css" rel="stylesheet">
     </head>
 
-    <body>
-        <p>
-            <!--이름 학과 학번-->
-            <h1 id="welcome">Welcome</h1>
-            <table id = "contents">
-                <!--CAREER DIRECTION/ MBTI/ BOOKS/ MUSIC/ TRAVEL-->   
-                <tbody>
-                    <!--각 링크를 이미지에 다는 것도 괜찮을 것 같다-->
+    <body class="main">
+
+        <!--이름 학과 학번-->
+        <h1 id="welcome">Welcome</h1>
+        <h3>Heewon Kim's Homepage</h3>
+        <hr>
+        <table id = "contents">
+            <!--CAREER DIRECTION/ MBTI/ BOOKS/ MUSIC/ TRAVEL-->   
+            <tbody>
+                <!--각 링크를 이미지에 다는 것도 괜찮을 것 같다-->
+                <tr>
                     <td><a href="./career-dir.html">진로 방향</a></td>
                     <!--<td><a href="./mbti.html">MBTI</a></td>-->
                     <td><a href="./books.html">책</a></td>
                     <td><a href="./music.html">음악</a></td>
                     <td><a href="./travel.html">여행</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--내 사진-->
+        <div id="my_img">
+            <img src = "./img/barcelona1.jpg" width=auto height="300" alt="IMG UNLOADED">
+        </div>
+        
+        <div id="base_info">
+            <br>김희원
+            <br>소프트웨어학과
+            <br>32201321
+        </div>
+        <br><br>
+        <hr>
+        <h3>Below is Social Sites I'm using</h3>
+        <div>
+            <table id="Social_Site">
+                <thead><th>Site</th><th>URL</th></thead>
+                <tbody>
+                    <tr><td>Github</td><td><a href="https://github.com/heewon916">
+                        <img id="git" src="img/github.png">
+                    </a></td></tr>
+                    <tr><td>Tistory</td><td><a href="https://programmerhub-heeya16.tistory.com/">
+                        <img id="tistory" src="./img/tistory.png">
+                    </a></td></tr>
+                    <tr><td>컴퓨터네트워크</td><td><a href="https://32201321.wixsite.com/connect-dots">
+                        <img id="cn" src="./img/wix.png">
+                    </a></td></tr>
                 </tbody>
             </table>
-            <!--내 사진-->
-            <img id = "my_img" src = "./img/barcelona1.jpg" width="240" height="180" alt="IMG UNLOADED">
-            <br>이름:: 김희원 KIM HEE WON 
-            <br>학과:: 소프트웨어학과 DEPARTMENT OF SOFTWARE 
-            <br>학번:: 32201321
-            <br>MBTI:: ISTP
-            <ul>
-                <li> Social Sites
-                    <ul>
-                        <li><a href="https://github.com/heewon916">Github</a></li>
-                        <li><a href="https://programmerhub-heeya16.tistory.com/">Tistory</a></li>
-                        <li><a href="https://32201321.wixsite.com/connect-dots">컴퓨터네트워크</a></li>
-                    </ul>
-                </li>
-            </ul>
-            
-            </p>
-        
+
+
+        </div>
+
     </body>
 </html>

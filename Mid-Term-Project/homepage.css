@@ -1,0 +1,45 @@
+#welcome {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 80;
+    padding: 0%;
+}
+#contents{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+td {
+    border: 1px solid gray;
+    text-align: center;
+    padding: 5px;
+}
+h3 {
+    font-size: 20;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+a{
+    text-decoration-line:none ;
+}
+#my_img{
+    padding: 20px;
+    text-align: center;
+    float:left;
+}
+#base_info{
+    text-align: center ;
+    display: table-cell;
+    vertical-align: middle;
+    width:auto;
+    height: 300;
+}
+#git, #tistory, #cn{
+    width: 200;
+    height: auto;
+}
+#Social_Site{
+    width: 100%;
+    position: static;
+}
