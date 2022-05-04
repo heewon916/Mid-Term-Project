@@ -9,6 +9,8 @@
 - whoami.html ==> 자기소개 페이지
 - whatiluv.html ==> 좋아하는 것에 대한 내용
 - contact.html ==> 연락 수단에 대한 내용
+
+
 /* 각 html 파일에 대한 css 파일 */
 - whoami.css
 - whatiluv.css
