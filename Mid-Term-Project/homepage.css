@@ -1,11 +1,22 @@
 body.main{
     font-family:Californian FB, Cambria;
 }
-
+body {
+    font-family:Californian FB, Cambria;    
+    animation: fadein 0.5s;
+}
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
 #welcome {
     font-family:Californian FB, Cambria;
     text-align: center;
-    padding: 0%;
+    padding-top:20px;
     font-size: 50px;
 }
 
