@@ -1,0 +1,50 @@
+body {
+    font-family:Californian FB, Cambria;    
+}
+#welcome {
+    font-family:Californian FB, Cambria;
+    text-align: center;
+    padding: 0%;
+    font-size: 50px;
+}
+
+#contents{
+    margin:auto;
+    border: none;
+    border-collapse: collapse;
+    width: 50%;
+    table-layout: fixed;
+}
+a{
+    text-decoration-line:none ;
+    color:black;
+}
+td {
+    font-family:Californian FB, Cambria;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+    border:none;
+}
+table, td, tr{
+    border: none;
+    border-collapse: collapse;
+}
+
+#my_img{
+    float:left;
+    width: 500px;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 130px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+}
+#about_me{
+    padding-top: 30px;
+    text-align: center;
+}
+#my_name{
+    font-size: 20px;
+    padding: 0px;
+}

@@ -1,33 +1,54 @@
-#welcome {
-    font-family:'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 80;
-    padding: 0%;
+body.main{
+    font-family:Californian FB, Cambria;
 }
+
+#welcome {
+    font-family:Californian FB, Cambria;
+    text-align: center;
+    padding: 0%;
+    font-size: 50px;
+}
+
 #contents{
-    border: 1px solid gray;
+    margin:auto;
+    border: none;
     border-collapse: collapse;
-    width: 100%;
+    width: 50%;
     table-layout: fixed;
 }
+.main_pic{
+    width:100%;
+    height: 400px;
+    margin:auto;
+    object-fit: cover;
+}
 td {
-    border: 1px solid gray;
+    font-family:Californian FB, Cambria;
+    font-style: italic;
     text-align: center;
     padding: 5px;
+    border:none;
+}
+table, td, tr{
+    border: none;
+    border-collapse: collapse;
 }
 h3 {
     font-size: 20;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Californian FB, Cambria;
     text-align: center;
 }
 a{
     text-decoration-line:none ;
+    color:black;
 }
-#my_img{
+/*
+#main_img{
     padding: 20px;
     text-align: center;
     float:left;
 }
+*/
 #base_info{
     text-align: center ;
     display: table-cell;
