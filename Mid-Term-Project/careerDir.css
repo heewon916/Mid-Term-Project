@@ -68,3 +68,15 @@ img{
     table-layout: fixed ;
     width: 900px;
 }
+.__menu:hover {
+    text-decoration: underline;
+    color:grey;
+}
+#dream_pic_ai, #dream_pic_t{
+    width:300px;
+    margin: auto;
+    white-space: nowrap;
+}
+.c_details{
+    padding: 30px;
+}

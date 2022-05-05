@@ -55,3 +55,10 @@ img{
     margin: auto;
     white-space: nowrap;
 }
+.__menu:hover {
+    text-decoration: underline;
+    color:grey;
+}
+.l_details{
+    padding:10px;
+}
