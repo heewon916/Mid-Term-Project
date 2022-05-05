@@ -12,6 +12,7 @@
 - contact.html ==> 연락 수단에 대한 내용
 
 ## /* 각 html 파일에 대한 css 파일 */
+- homepage.css
 - whoami.css
 - whatiluv.css
 - careerDir.css
