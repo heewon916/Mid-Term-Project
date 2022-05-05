@@ -2,6 +2,8 @@ var index1 = 0;   //이미지에 접근하는 인덱스
 var index2 = 0;   //이미지에 접근하는 인덱스
 var index3 = 0;   //이미지에 접근하는 인덱스
 window.onload = function () {
+    var menu = document.getElementById("luv");
+    menu.style.backgroundColor = "lightblue";
     slideShow1();
     slideShow2();
     slideShow3();

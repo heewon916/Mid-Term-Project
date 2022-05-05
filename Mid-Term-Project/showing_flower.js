@@ -1,6 +1,8 @@
 var index = 0;   //이미지에 접근하는 인덱스
 
 window.onload = function () {
+    var menu = document.getElementById("contact");
+    menu.style.backgroundColor = "lightblue";
     slideShow();
 }
 

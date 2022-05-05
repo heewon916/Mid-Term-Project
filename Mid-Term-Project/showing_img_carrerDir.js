@@ -2,6 +2,8 @@ var index_ai = 0;   //이미지에 접근하는 인덱스
 var index_teach = 0;   //이미지에 접근하는 인덱스
 
 window.onload = function () {
+    var menu = document.getElementById("wanna");
+    menu.style.backgroundColor = "lightblue";
     slideShow_ai();
     slideShow_teach();
 }

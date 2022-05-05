@@ -3,6 +3,12 @@
     <head>
         <title>🌼Heewon Kim</title>
         <link href="./whoami.css" type="text/css" rel="stylesheet">
+        <script>
+            window.onload = function(){
+                var menu = document.getElementById("iam");
+                menu.style.backgroundColor = "lightblue";
+            }
+        </script>
     </head>
 
     <body>
@@ -14,10 +20,10 @@
             <tbody>
                 <!--각 링크를 이미지에 다는 것도 괜찮을 것 같다-->
                 <tr>
-                    <td><a href="./whoami.html" class="__menu">Who am I</a></td>
-                    <td><a href="./whatiluv.html" class="__menu">What I Luv</a></td>
-                    <td><a href="./careerDir.html" class="__menu">Wanna Be</a></td>
-                    <td><a href="./contact.html" class="__menu">Contact</a></td>
+                    <td><a href="./whoami.html" class="__menu" id="iam">Who am I</a></td>
+                    <td><a href="./whatiluv.html" class="__menu" id="luv">What I Luv</a></td>
+                    <td><a href="./careerDir.html" class="__menu" id="wanna">Wanna Be</a></td>
+                    <td><a href="./contact.html" class="__menu" id="contact">Contact</a></td>
                 </tr>
             </tbody>
         </table>
