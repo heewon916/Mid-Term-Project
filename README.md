@@ -24,6 +24,7 @@
 - show_img_careerDir.js
 
 ## /* 결과물 */
+- 모니터 크기 관계로 What I Luv와 Wanna Be 페이지에서는 잘린 부분이 있습니다.
 <img src="./Mid-Term-Project/img/result-homepage.png">
 <img src="./Mid-Term-Project/img/result-who_am_i.png">
 <img src="./Mid-Term-Project/img/result-what_i_luv.png">
