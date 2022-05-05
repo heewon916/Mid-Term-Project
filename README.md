@@ -23,7 +23,7 @@
 - show_img_slide.js
 - show_img_careerDir.js
 
-## 결과물 
+## /* 결과물 */
 <img src="./Mid-Term-Project/img/result-homepage.png">
 <img src="./Mid-Term-Project/img/result-who_am_i.png">
 <img src="./Mid-Term-Project/img/result-what_i_luv.png">
